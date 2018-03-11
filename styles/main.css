@@ -1,0 +1,92 @@
+/*******CSS Reset BEGIN*******/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*******CSS Reset END*******/
+
+/*******General BEGIN*******/
+
+.cf:before,   /*clearfix hack*/
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {             /*clearfix hack*/
+    clear: both;
+}
+
+body {
+  max-height: 980px;
+  overflow: hidden;
+}
+
+/*******General End*******/
+
+/*******Home Page BEGIN*******/
+#home {
+}
+header {
+  margin: 0 0  0 50%;
+}
+.home-decor {
+  -webkit-box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow:    5px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow:         5px 0px 5px 0px rgba(0,0,0,0.75);
+  float: left;
+  width: 40%;
+}
+
+.home-content {
+    background: #466368;
+    background: -webkit-linear-gradient(#031926 15%, #403f4c 30%, #515a47 5%, #8e7529, #ece5f0);
+    background:    -moz-linear-gradient(#648880, #293f50);
+    background:         linear-gradient(rgba(236,229,240,1) 0%, rgba(236,229,240,1) 4%, rgba(81,90,71,1) 58%, rgba(64,63,76,1) 63%, rgba(3,25,38,1) 100%);
+  }
+/*******Home Page END*******/
