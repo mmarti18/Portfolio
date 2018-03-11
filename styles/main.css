@@ -64,18 +64,40 @@ table {
 
 html,
 body {
-  height:100%;
 }
 
 body {
-background: url("..\\assets\\images\\intro.jpg");
-background-size: cover;
-background-repeat: no-repeat;
+	font: 1em 'Fredericka the Great', cursive;
 }
 
-
+.container {
+	max-width: 70%;
+	margin: 0 auto;
+}
 /*******General End*******/
 
 /*******Home Page BEGIN*******/
+header {
+	font-size: 5em;
+	padding-top: 200px;
+}
 
+.home-decor {
+	float: left;
+	width: 30%;
+}
+
+.home-content {
+}
+
+.big-txt {
+	font-size: 3em;
+}
+
+.name {
+	font-size: 1.5em;
+	color: #031926;
+	text-decoration: 	underline;
+	text-shadow: 2px 2px #8e7529;
+}
 /*******Home Page END*******/
